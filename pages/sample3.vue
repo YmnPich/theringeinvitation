@@ -3,20 +3,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <!-- <link href = "/asset/main1.scss"> -->
-    <div class = "mainContainer">
-      <!-- cover part -->
-      <img src="/asset/cover.png" alt="Discover Nuxt 3" />
-      <h1 class = "coupleName">SEBASTIAN & RACHELLE</h1>
-      <div class = "name-bar"></div>
-      <div class = "text-bar">invite you to join us</div>
-      <!-- end of cover part -->
-
-      <!-- thank part -->
-      <div class = "text" style = "margin-top: 60px">IN THE CELEBRATION</div>
-      <div class = "text">OF THEIR</div>
-      <img style = "width: 305px; height: 103px; margin: auto; margin-top: 20px; margin-bottom: 40px;" src="/asset/wedding.png" alt="Discover Nuxt 3" />
-      <table style = "margin: auto;">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <div class = "main-background">
+        <div class = "wedding-title">
+            THE WEDDING OF
+        </div>
+        <img class = "couples-pics"src = "/asset/couple-pic.png">
+        <div class = "couples-name">Sebastian & Rachelle</div>
+        <div class = "name-bar3"></div>
+        <div class = "text-bar" style = "margin-bottom: 100px;">invite you to join us</div>
+        <img class = "wedding-pics"src = "/asset/wedding.png">
+        <table style = "margin: auto;">
         <tr>
         <td style="padding-right: 10px; font-weight: 700;">MR. CHAN SAVOEUN</td>
         <td style="padding-right: 10px;font-weight: 700;">MR. PHONG NARONG</td>
@@ -35,7 +34,7 @@
             <div>GROOM</div>
             <div style = "font-weight: 700;">DEVIS DEVISTIAN</div>
           </td>
-          <td><img style = "width: 140px; height: 133px;"src="/asset/coupleLogo.png" alt="Image"></td>
+          <td><img style = "width: 140px; height: 133px;"src="/asset/coupleLogo-green.png" alt="Image"></td>
           <td style="padding: 10px;">
             <div>BRIDE</div>
             <div style = "font-weight: 700;">DANIEL RACHELLE</div>
@@ -45,17 +44,36 @@
       <div class = "month">
         february
       </div>
+      <!-- <div>
+        <table>
+            <tr>
+                <tr>
+                    <td>
+                        <div class = "date-line"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>SATURDAY</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class = "date-line"></div>
+                    </td>
+                </tr>
+            </tr>
+        </table>
+      </div> -->
       <div class="date-container">
         <div>
             <table>
                 <tr>
-                    <td><div class = "date-line" style = "background-color: #9b6738;"></div></td>
+                    <td><div class = "date-line"></div></td>
                 </tr>
                 <tr>
                     <td><div class = "day"style = "font-family: roboto; font-size: 16px;">SATURDAY</div></td>
                 </tr>
                 <tr>
-                    <td><div class = "dates-line" style = "background-color: #9b6738;"></div></td>
+                    <td><div class = "dates-line"></div></td>
                 </tr>
             </table>
         </div>
@@ -72,27 +90,24 @@
         <span class="year">
             <table>
                 <tr>
-                    <td><div class = "date-line" style = "background-color: #9b6738;"></div></td>
+                    <td><div class = "date-line"></div></td>
                 </tr>
                 <tr>
                     <td><div class = "day" style = "font-family: roboto; font-size: 16px;">AT 2:30 PM</div></td>
                 </tr>
                 <tr>
-                    <td><div class = "dates-line"style = "background-color: #9b6738;"></div></td>
+                    <td><div class = "dates-line"></div></td>
                 </tr>
             </table>
         </span>
         
     </div>
-      <!-- end of thank part -->
-
-      <!-- wedding program part -->
-      <img class = "wedding-timelines"src = "/asset/wedding-timeline.png">
-      <div class = "main-tab">
+    <img class = "wedding-timelines"src = "/asset/wedding-timeline.png">
+    <div class = "main-tab" style = "margin-bottom:120px">
         <div class = "tab-box">
           <button class = "tab_btn active"> 27 FEB 2024</button>
           <button class = "tab_btn"> 28 FEB 2024</button>
-          <div class = "line"></div>
+          <div class = "line" style = "background-color: #3e514c;"></div>
         </div>
         <div class = "content-box">
           <div class="content active">
@@ -183,26 +198,37 @@
               </table>
             </div>
           </div>
-          <!-- end of weddingprogram part -->
-
-          <!-- photo gallery part -->
-          <div class = "row-content">
+        </div>
+    </div>
+    <div class = "row-content" style = "padding-left : 20px">
             <table>
               <tr>
                 <td>
-                  <div class ="bar"></div>
+                  <div class ="bar" style = "background-color: #3e514c;"></div>
                 </td>
                 <td>
-                  <div class ="mid-text">PHOTO GALLERY</div>
+                  <div class ="mid-text">Photo Gallery</div>
                 </td>
                 <td>
-                  <div class ="bar"></div>
+                  <div class ="bar" style = "background-color: #3e514c;"></div>
                 </td>
               </tr>
             </table>
-          </div>
-          <div>
-            <table>
+      </div>
+      <div class = "mar-bot">
+            <img class = "main-gallery"style = "width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;margin-bottom: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
+            <table class = "main-gallery"style = "margin-top: 5px;">
+              <tr>
+                <td>
+                  <img style = "width: 172.5px; height: 243px ; object-fit:cover;padding-right: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
+                </td>
+                <td>
+                  <img style = "width: 172.5px; height: 243px ; object-fit:cover;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
+                </td>
+              </tr>
+            </table>
+            <img class = "main-gallery"style = "width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;margin-bottom: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
+            <table class = "main-gallery">
               <tr>
                 <td>
                   <img style = "width: 144px; height: 216px ; padding-right: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
@@ -214,32 +240,14 @@
                 
               </tr>        
             </table>
-            <img style = "width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
-            <table style = "margin-top: 5px;">
-              <tr>
-                <td>
-                  <img style = "width: 172.5px; height: 243px ; object-fit:cover;padding-right: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
-                </td>
-                <td>
-                  <img style = "width: 172.5px; height: 243px ; object-fit:cover;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
-                </td>
-              </tr>
-            </table>
-            <img style = "width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
-            <!-- end of photo gallery part -->
-
-            <!-- QR Code part -->
-            <div class = "main-qr" style = "padding-bottom : 20px;">
+            <div class = "main-qr" style = "padding-bottom : 20px; margin-left : 20px ; margin-right : 20px ; background-color : white;">
               <div style = "text-align: center;padding-top: 30px;margin-bottom: 30px; font-size: 20px; font-weight: 600;font-family: Playfair Display SC, serif;">SCAN OR CLICK ON QR CODE</div>
               <img class = "qr-code" style = "margin-bottom: 20px;"src = "/asset/QR-DOLLAR.png">
-              <img class = "qr-code" src = "/asset/QR-RIEL.png">
+              <img class = "qr-code"src = "/asset/QR-RIEL.png">
             </div>
-          </div>
-          <!-- end of QR Code part -->
-
-          <!-- powered part -->
-          <div class = "app-power"> Powered By : The Wedding App</div>
-          <div class = "icon">
+            <div>
+                <div class = "app-power"> Powered By : The Wedding App</div>
+                <div class = "icon">
             <table>
               <tr>
                 <td>
@@ -254,35 +262,34 @@
               </tr>
             </table>
           </div>
-        </div>
-        <!-- end of powered part -->
-
+         </div>
+          </div>
         
-      </div>
     </div>
-  </template>
-  <script>
-  export default {
+</template>
+
+<script>
+export default {
+  
+  mounted() {
     
-    mounted() {
-      
-      const tabs = document.querySelectorAll('.tab_btn');
-      const content_display = document.querySelectorAll('.content');
-      
-      tabs.forEach((tab, index) => {
-        tab.addEventListener('click', (e) => {
-          tabs.forEach(tab => {tab.classList.remove('active')});
-          tab.classList.add('active');
-  
-          var line = document.querySelector('.line');
-          line.style.width = e.target.offsetWidth + "px";
-          line.style.left = e.target.offsetLeft + "px";
-          
-          content_display.forEach(content=>{content.classList.remove('active')});
-          content_display[index].classList.add('active');
-        });
+    const tabs = document.querySelectorAll('.tab_btn');
+    const content_display = document.querySelectorAll('.content');
+    
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', (e) => {
+        tabs.forEach(tab => {tab.classList.remove('active')});
+        tab.classList.add('active');
+
+        var line = document.querySelector('.line');
+        line.style.width = e.target.offsetWidth + "px";
+        line.style.left = e.target.offsetLeft + "px";
+        
+        content_display.forEach(content=>{content.classList.remove('active')});
+        content_display[index].classList.add('active');
       });
-  
-    }
+    });
+
   }
-  </script>
+}
+</script>

@@ -10,8 +10,16 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "embla-carousel-autoplay": "^8.2.1",
+    "embla-carousel-vue": "^8.2.1",
+    "node-sass": "^9.0.0",
     "nuxt": "^3.13.0",
-    "vue": "latest"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sass-loader": "^16.0.1",
+    "swiper": "^11.1.12",
+    "vue": "latest",
+    "vue-loader": "^17.4.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
