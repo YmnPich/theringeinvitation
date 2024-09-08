@@ -533,14 +533,14 @@ body{
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  filter: blur(8px)   
-  saturate(1.2) brightness(0.9);
+  // filter: blur(8px)   
+  // saturate(1.2) brightness(0.9);
 }
 
 .sub-background {
   /* Add styling for the sub-background element here */
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
-  filter: none; /* Remove blur from text */
+  // filter: none; /* Remove blur from text */
 }
 
 .wedding-khmer{
