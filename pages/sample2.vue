@@ -133,18 +133,20 @@
               ផ្លូវលេខ៥៨០ សង្កាត់បឹងកក់២ ខណ្ឌទួលគោក
               រាជធានីភ្នំពេញ
             </div>
-            <div class = "map-content" style = "border-color: #607c60;">
-              <table>
+            <button class = "map-content" style = "border-color: #607c60;">
+              <a href="https://maps.app.goo.gl/UpFyxGX6A5TChtGZA">
+                <table>
                 <tr>
                   <td>
                     <img style="width: 45px; height: 43px;" src="/asset/googlemap-trans.png">
                   </td>
                   <td>
-                    <div class = "event"style = "font-family: khmer; font-size: 1៤px; color: #607c60;">ទីតាំងកម្មវិធី</div>
+                    <div class = "event" style = "color: #607c60;">Event location</div>
                   </td>
                 </tr>
               </table>
-            </div>
+              </a>
+            </button>
           </div>
           <div class="content">
             <div class = "header"style = "font-family: Khmer;font-size: 24px; color: #607c60;">កម្មវិធីពេលព្រឹក</div>
@@ -197,18 +199,20 @@
 មណ្ឌលសន្និបាតនិងពិព័រណ៍អន្តរជាតិជ្រោយចង្វារ
 (OCIC) អគារ F&G
             </div>
-            <div class = "map-content" style = "border-color: #607c60;">
-              <table>
+            <button class = "map-content" style = "border-color: #607c60;">
+              <a href="https://maps.app.goo.gl/UpFyxGX6A5TChtGZA">
+                <table>
                 <tr>
                   <td>
                     <img style="width: 45px; height: 43px;" src="/asset/googlemap-trans.png">
                   </td>
                   <td>
-                    <div class = "event"style = "font-family: khmer; font-size: 1៤px; color: #607c60;">ទីតាំងកម្មវិធី</div>
+                    <div class = "event" style = "color: #607c60;">Event location</div>
                   </td>
                 </tr>
               </table>
-            </div>
+              </a>
+            </button>
             
           </div>
           <div class = "main-qr" style = "padding-bottom : 20px ; background-color : white;">

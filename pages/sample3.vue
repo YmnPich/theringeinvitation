@@ -123,8 +123,9 @@
               Street 580, Sangkat Boeung Kak II, Khan Toul Kork
               Phnom Penh
             </div>
-            <div class = "map-content">
-              <table>
+            <button class = "map-content">
+              <a href="https://maps.app.goo.gl/UpFyxGX6A5TChtGZA">
+                <table>
                 <tr>
                   <td>
                     <img style="width: 45px; height: 43px;" src="/asset/googlemap-trans.png">
@@ -134,7 +135,8 @@
                   </td>
                 </tr>
               </table>
-            </div>
+              </a>
+            </button>
           </div>
           <div class="content">
             <div class = "header">MORNING CEREMONY</div>
@@ -185,8 +187,9 @@
             <div class = "event-text">
               Respectfully Invite guests to have dinner at the center Chroy Changvar International Convention and Exhibition Center (OCIC) F&G Building
             </div>
-            <div class = "map-content">
-              <table>
+            <button class = "map-content">
+              <a href="https://maps.app.goo.gl/UpFyxGX6A5TChtGZA">
+                <table>
                 <tr>
                   <td>
                     <img style="width: 45px; height: 43px;" src="/asset/googlemap-trans.png">
@@ -196,7 +199,8 @@
                   </td>
                 </tr>
               </table>
-            </div>
+              </a>
+            </button>
           </div>
         </div>
     </div>

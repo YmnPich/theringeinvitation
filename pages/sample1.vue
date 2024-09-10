@@ -108,7 +108,7 @@
               Street 580, Sangkat Boeung Kak II, Khan Toul Kork
               Phnom Penh
             </div>
-            <div class = "map-content">
+            <!-- <div class = "map-content">
               <table>
                 <tr>
                   <td>
@@ -119,7 +119,21 @@
                   </td>
                 </tr>
               </table>
-            </div>
+            </div> -->
+            <button class = "map-content">
+              <a href="https://maps.app.goo.gl/UpFyxGX6A5TChtGZA">
+                <table>
+                <tr>
+                  <td>
+                    <img style="width: 45px; height: 43px;" src="/asset/googlemap-trans.png">
+                  </td>
+                  <td>
+                    <div class = "event">Event location</div>
+                  </td>
+                </tr>
+              </table>
+              </a>
+            </button>
           </div>
           <div class="content">
             <div class = "header">MORNING CEREMONY</div>
@@ -170,8 +184,9 @@
             <div class = "event-text">
               Respectfully Invite guests to have dinner at the center Chroy Changvar International Convention and Exhibition Center (OCIC) F&G Building
             </div>
-            <div class = "map-content">
-              <table>
+            <button class = "map-content">
+              <a href="https://maps.app.goo.gl/UpFyxGX6A5TChtGZA">
+                <table>
                 <tr>
                   <td>
                     <img style="width: 45px; height: 43px;" src="/asset/googlemap-trans.png">
@@ -181,7 +196,8 @@
                   </td>
                 </tr>
               </table>
-            </div>
+              </a>
+            </button>
           </div>
           <!-- end of weddingprogram part -->
 
@@ -225,7 +241,10 @@
                 </td>
               </tr>
             </table>
-            <img style = "width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
+            <img onclick = "FullView(this.src)"style = "width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
+            <div id = "FullImageView">
+
+            </div>
             <!-- end of photo gallery part -->
 
             <!-- QR Code part -->
@@ -234,6 +253,9 @@
               <img class = "qr-code" style = "margin-bottom: 20px;"src = "/asset/QR-DOLLAR.png">
               <img class = "qr-code" src = "/asset/QR-RIEL.png">
             </div>
+          </div>
+          <div id = "FullImageView">
+            <img id = "FullImage">
           </div>
           <!-- end of QR Code part -->
 
@@ -263,26 +285,46 @@
   </template>
   <script>
   export default {
-    
-    mounted() {
-      
-      const tabs = document.querySelectorAll('.tab_btn');
-      const content_display = document.querySelectorAll('.content');
-      
-      tabs.forEach((tab, index) => {
-        tab.addEventListener('click', (e) => {
-          tabs.forEach(tab => {tab.classList.remove('active')});
-          tab.classList.add('active');
-  
-          var line = document.querySelector('.line');
-          line.style.width = e.target.offsetWidth + "px";
-          line.style.left = e.target.offsetLeft + "px";
-          
-          content_display.forEach(content=>{content.classList.remove('active')});
-          content_display[index].classList.add('active');
-        });
-      });
-  
+  mounted() {
+    const tabs = document.querySelectorAll('.tab_btn');
+    const contentDisplays = document.querySelectorAll('.content'); // Use plural form for clarity
+
+    function handleTabClick(event) {
+      // Remove active class from all tabs
+      tabs.forEach(tab => tab.classList.remove('active'));
+
+      // Add active class to the clicked tab
+      event.target.classList.add('active');   
+
+
+      // Animate line under active tab (assuming line element exists)
+      const line = document.querySelector('.line');
+      if (line) {
+        line.style.width = event.target.offsetWidth + "px";
+        line.style.left = event.target.offsetLeft + "px";
+      }
+
+      // Hide all content displays
+      contentDisplays.forEach(content => content.classList.remove('active'));
+
+      // Show the content display corresponding to the clicked tab
+      const clickedTabIndex = Array.from(tabs).indexOf(event.target);
+      if (clickedTabIndex !== -1) {
+        contentDisplays[clickedTabIndex].classList.add('active');
+      } else {
+        console.error('Clicked tab not found in content displays. Check for consistency.');
+      }
+    }
+
+    // Attach click event listener to all tabs
+    tabs.forEach(tab => tab.addEventListener('click', handleTabClick));
+
+    // FullView function (assuming image element and container with ID "FullImageView" exist)
+    function FullView(ImgLink) {
+      document.getElementById("FullImage").src = ImgLink;
+      document.getElementById("FullImageView").style.display = "block";   
+
     }
   }
+};
   </script>
