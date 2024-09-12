@@ -1,56 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.mainContainer {
+  width: 390px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: black;
+}
 
-// sample1
-.mainContainer{
-    width : 390px ;
-    margin: 0 auto;
-    background-color: #ffffff;
-    color: black;
-    
+.coupleName {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
-.coupleName{
-    font-family: "Playfair Display SC", serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 28px;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 10px;
-}
-.name-bar{
-    width : 100px;
-    height: 2px;
-    background-color: #9b6738;
-    margin: auto
-}
-.text-bar{
-    font-family: "Alex Brush", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 28px;
-    text-align: center;
-    margin-top: 40px;
-}
-.text{
-    text-align: center;
-    font-family: "Playfair Display SC", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
 
+.name-bar {
+  width: 100px;
+  height: 2px;
+  background-color: #9b6738;
+  margin: auto;
 }
-.thankContent{
-    text-align: center;
-    font-family: "Playfair Display", serif;
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+
+.text-bar {
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 40px;
 }
+
+.text {
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.thankContent {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .tab-bar {
   display: flex;
   justify-content: center;
@@ -67,24 +69,25 @@
 .tab-button.active {
   border-bottom: 2px solid #007bff;
 }
+
 .tab-content {
-    display: none;
-  }
-  
+  display: none;
+}
+
 .tab-content-item.active {
-    display: block;
-  }
-.tab-box{
+  display: block;
+}
+
+.tab-box {
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  // border-bottom: 2px solid rgba(229,229,229);
   font-size: 16px;
-  
   position: relative;
 }
-.tab-box .tab_btn{
+
+.tab-box .tab_btn {
   font-size: 20px;
   font-weight: 600;
   color: #919191;
@@ -93,29 +96,40 @@
   padding: 18px;
   cursor: pointer;
 }
-.content-box{
+
+.content-box {
   padding: 20px;
 }
-.content-box .content{ 
+
+.content-box .content {
   display: none;
-  animation: moving .5s ease-in-out;
+  animation: moving 0.5s ease-in-out;
 }
-@keyframes moving{
-  from{transform: translateX(50px); opacity: 0;}
-  to{transform: translateX(0px); opacity:1;}
+
+@keyframes moving {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }
-.content-box .content.active{ 
+.content-box .content.active {
   display: block;
 }
-.content-box .content h2{ 
+
+.content-box .content h2 {
   margin-bottom: 10px;
 }
-.tab-box .tab_btn.active{
-  // color: black;
+
+.tab-box .tab_btn.active {
   color: #000;
   font-weight: 600;
 }
-.line{
+
+.line {
   position: absolute;
   top: 55px;
   left: 50px;
@@ -123,9 +137,10 @@
   height: 5px;
   background-color: #9b6738;
   border-radius: 10px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.header{
+
+.header {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -133,14 +148,16 @@
   text-align: center;
   margin-top: 10px;
 }
-.vertical-line{
+
+.vertical-line {
   width: 1px;
   height: 35px;
   background-color: #9b6738;
   margin: auto;
   margin-top: 5px;
 }
-.event-text{
+
+.event-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -148,15 +165,15 @@
   text-align: center;
   margin-top: 5px;
 }
-.event{
+
+.event {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
-  
 }
-.map-content{
-  // padding: 15px 25px;
+
+.map-content {
   padding-right: 20px;
   padding-left: 5px;
   padding-top: 5px;
@@ -165,12 +182,9 @@
   border-radius: 15px;
   color: #212121;
   z-index: 1;
-  // background: #e8e8e8;
   position: relative;
   font-weight: 1000;
   font-size: 17px;
-  // -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-  // box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
   transition: all 250ms;
   overflow: hidden;
   margin-left: 90px;
@@ -187,93 +201,96 @@
   border-radius: 15px;
   background-color: #212121;
   z-index: -1;
-  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-  transition: all 250ms
- }
- .map-content:hover {
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+}
+
+.map-content:hover {
   color: #e8e8e8;
- }
- 
- .map-content:hover::before {
+}
+
+.map-content:hover::before {
   width: 100%;
- }
-.bar{
+}
+
+.bar {
   width: 80px;
   height: 1px;
   background-color: #9b6738;
 }
-.mid-text{
+
+.mid-text {
   padding-left: 10px;
   padding-right: 10px;
-  // text-align: center;
   font-family: "Playfair Display SC", serif;
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
 }
-.row-content{
+
+.row-content {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.qr-code{
+
+.qr-code {
   width: 320px;
   height: 480px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
   border-radius: 24px;
   margin: auto;
 }
-.main-qr{
+
+.main-qr {
   margin-top: 20px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
 }
-.app-power{
+
+.app-power {
   text-align: center;
   margin-top: 60px;
 }
-.logo-size{
+
+.logo-size {
   width: 52px;
   height: 52px;
   margin-right: 5px;
   border-radius: 50%;
-  
 }
-.icon{
+
+.icon {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
 }
 
-tr{
-
-    text-align: center;
-    font-family: "Playfair Display SC", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-}
-body{
-    background-color: #f1f4f8;
+tr {
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
 }
 
-// end of sample 1
+body {
+  background-color: #f1f4f8;
+}
 
-
-// sample 2
-.main-container{
+.main-container {
   width: 390px;
   margin: auto;
   background-image: url("/asset/sample2-background.jpg"); /* Replace with your image path */
-  // background-size: cover;
   background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
   overflow-y: auto;
 }
-.flower-top{
+
+.flower-top {
   width: 390px;
   height: 200px;
 }
-.wedding{
+
+.wedding {
   font-family: "Moul", serif;
   font-weight: 400;
   font-style: normal;
@@ -282,34 +299,38 @@ body{
   text-align: center;
   margin-top: 30px;
 }
-.couple-logo{
-  width: 131px ;
+
+.couple-logo {
+  width: 131px;
   height: 140px;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.groom-bride{
+
+.groom-bride {
   font-family: "Khmer", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
   color: #607c6b;
 }
-.name-groombride{
+
+.name-groombride {
   font-family: "Moul", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
   color: #607c6b;
   margin-top: 30px;
-
 }
-.couple-table{
+
+.couple-table {
   border-collapse: collapse;
   width: 100%;
 }
-.invite{
+
+.invite {
   font-family: "Khmer", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -319,7 +340,8 @@ body{
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.invite-date{
+
+.invite-date {
   font-family: "Moul", serif;
   font-weight: 400;
   font-style: normal;
@@ -329,28 +351,32 @@ body{
   margin-top: 10px;
   margin-bottom: 240px;
 }
-.mid-text2{
+
+.mid-text2 {
   font-family: "Moul", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
   color: #607c6b;
-  // text-align: center;
   margin-right: 25px;
   margin-left: 25px;
 }
-.bar2{
+
+.bar2 {
   width: 100px;
   height: 1px;
-  background-color:#607c6b;
+  background-color: #607c6b;
 }
-.main-gallery{
+
+.main-gallery {
   margin: auto;
 }
-.mar-bot{
+
+.mar-bot {
   margin-bottom: 180px;
 }
-.parent-name{
+
+.parent-name {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -358,9 +384,9 @@ body{
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
-  
 }
-.top-name{
+
+.top-name {
   font-family: "Moul", serif;
   font-weight: 400;
   font-style: normal;
@@ -369,12 +395,11 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  // height: 50px;
-  // font-size: 24px;
   margin-left: 20px;
   margin-right: 30px;
 }
-.down-name{
+
+.down-name {
   font-family: "Moul", serif;
   font-weight: 400;
   font-style: normal;
@@ -383,12 +408,11 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  // height: 50px;
-  // font-size: 24px;
   margin-left: 20px;
   margin-right: 20px;
 }
-.thanks-text{
+
+.thanks-text {
   font-family: "Khmer", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -399,21 +423,24 @@ body{
   padding-right: 10px;
   margin-bottom: 30px;
 }
-.top-groom{
+
+.top-groom {
   font-family: "Khmer", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
   color: #607c6b;
 }
-.grooms-name{
+
+.grooms-name {
   font-family: "Moul", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
   color: #607c6b;
 }
-.weddings{
+
+.weddings {
   font-family: "Moul", serif;
   font-weight: 400;
   font-style: normal;
@@ -423,6 +450,7 @@ body{
   margin-top: 230px;
   margin-bottom: 30px;
 }
+
 .tab-button {
   padding: 10px;
   border: none;
@@ -434,13 +462,12 @@ body{
   border-bottom: 2px solid #007bff;
 }
 
-.tab-box .tab_btn2.active{
-  // color: black;
+.tab-box .tab_btn2.active {
   color: #607c6b;
   font-weight: 600;
 }
 
-.tab-box .tab_btn2{
+.tab-box .tab_btn2 {
   font-size: 20px;
   font-weight: 600;
   color: #919191;
@@ -449,18 +476,16 @@ body{
   padding: 18px;
   cursor: pointer;
 }
-// sample3 style
 
-.main-background{
+.main-background {
   width: 390px;
   margin: auto;
   background-image: url("/asset/sample3-background.png"); /* Replace with your image path */
-  // background-size: cover;
   background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
   overflow-y: auto;
 }
 
-.wedding-title{
+.wedding-title {
   font-family: "Playfair Display SC", serif;
   font-weight: 400;
   font-style: normal;
@@ -469,14 +494,15 @@ body{
   text-align: center;
 }
 
-.couples-pics{
+.couples-pics {
   width: 390px;
   height: 261px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   margin-top: 10px;
 }
 
-.couples-name{
+.couples-name {
   font-family: "Alex Brush", cursive;
   font-weight: 600;
   font-style: normal;
@@ -486,14 +512,14 @@ body{
   text-align: center;
 }
 
-.name-bar3{
-  width : 100px;
+.name-bar3 {
+  width: 100px;
   height: 2px;
   background-color: black;
-  margin: auto
+  margin: auto;
 }
 
-.wedding-pics{
+.wedding-pics {
   margin-top: 160px;
   width: 308px;
   height: 96px;
@@ -501,7 +527,7 @@ body{
   margin-bottom: 15px;
 }
 
-.month{
+.month {
   font-family: "Alex Brush", cursive;
   font-weight: 400;
   font-style: normal;
@@ -509,7 +535,7 @@ body{
   text-align: center;
 }
 
-.date-line{
+.date-line {
   width: 100px;
   height: 0.5px;
   background-color: black;
@@ -520,46 +546,26 @@ body{
   align-items: center;
   justify-content: center;
   font-family: Arial, sans-serif; /* Adjust font as needed */
-  // color: #333; /* Adjust text color as needed */
 }
 
 .day, .date, .time, .year {
   margin: 0 10px;
 }
 
-.dates-line{
+.dates-line {
   width: 100px;
   height: 0.5px;
   background-color: black;
 }
-// .date {
-//   font-weight: bold;
-// }
 
-.wedding-timelines{
+.wedding-timelines {
   width: 336px;
   height: 104px;
-  object-fit:cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin: auto;
   margin-top: 200px;
 }
-
-// sample 4
-
-// .main-background4 {
-//   width: 390px;
-//   margin: auto;
-//   background-image: url("/asset/sample4-background.jpg"); /* Replace with your image path */
-//   background-size: contain;
-//   background-position: center center;
-//   background-repeat: no-repeat;
-//   background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
-//   overflow-y: auto; /* Enables vertical scrolling if needed */
-// }
-// .sub-background{
-//   background-color: #7e101213;
-//   width: 390px;
-// }
 
 .main-background4 {
   width: 390px;
@@ -569,18 +575,14 @@ body{
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  // filter: blur(8px)   
-  // saturate(1.2) brightness(0.9);
 }
 
 .sub-background {
   /* Add styling for the sub-background element here */
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
-  // filter: none; /* Remove blur from text */
 }
 
-
-.wedding-khmer{
+.wedding-khmer {
   font-family: "Moul", serif;
   font-weight: 400;
   font-style: normal;
@@ -590,13 +592,12 @@ body{
   text-align: center;
 }
 
-.tab-box .tab_btn4.active{
-  // color: black;
+.tab-box .tab_btn4.active {
   color: white;
   font-weight: 600;
 }
 
-.tab-box .tab_btn4{
+.tab-box .tab_btn4 {
   font-size: 20px;
   font-weight: 600;
   color: #919191;
@@ -606,9 +607,7 @@ body{
   cursor: pointer;
 }
 
-//sample5 style
-
-.main-container5{
+.main-container5 {
   width: 390px;
   margin: auto;
   background-image: url("/asset/sample5-background.png"); /* Replace with your image path */
@@ -617,14 +616,15 @@ body{
   overflow-y: auto;
 }
 
-.welcome-text{
+.welcome-text {
   font-family: "Baskervville", serif;
   font-weight: 400;
   font-style: normal;
-  font-size:16px;
+  font-size: 16px;
   text-align: center;
 }
-.couple5-name{
+
+.couple5-name {
   font-family: "Dancing Script", cursive;
   font-weight: 400;
   font-style: normal;
@@ -632,16 +632,13 @@ body{
   text-align: center;
 }
 
-
-//sample6
-
-.main-container6{
+.main-container6 {
   background-color: white;
   width: 390px;
   margin: auto;
 }
 
-.wel-wedding{
+.wel-wedding {
   font-family: "Battambang", system-ui;
   font-weight: 700;
   font-style: normal;
@@ -650,28 +647,11 @@ body{
   text-align: center;
 }
 
-img:hover{
+img:hover {
   cursor: pointer;
   filter: brightness(70%);
 }
 
-// #FullImageView {
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background-color: rgba(0, 0, 0, 0.8); /* Adjust the background color if needed */
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
-
-// #FullImage {
-//   max-width: 90%; /* Adjust the maximum width as needed */
-//   max-height: 90%; /* Adjust the maximum height as needed */
-//   object-fit: contain; /* Maintain aspect ratio and fit within container */
-// }
 #FullImageView {
   display: none;
   position: fixed; /* Ensures the full image covers the entire viewport */
@@ -688,7 +668,8 @@ img:hover{
   margin: 0 auto; /* Center the image horizontally */
   max-width: 98%; /* Allow some space around the image on larger screens */
   max-height: 98%; /* Prevent overflowing on small screens */
-  object-fit: contain; /* Maintain aspect ratio and prevent stretching */
+  -o-object-fit: contain;
+     object-fit: contain; /* Maintain aspect ratio and prevent stretching */
 }
 
 #closeButton {
@@ -702,62 +683,68 @@ img:hover{
   cursor: pointer;
 }
 
-
-
 .gallery-top .swiper-slide {
+  height: -moz-fit-content;
   height: fit-content;
   margin-right: 0px;
 }
-.swiper-wrapper{  
 
-}
 .gallery-top .swiper-slide-active {
-transform: scale(1.1);
-}      
+  transform: scale(1.1);
+}
+
 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after,
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
-content: ' ';
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  content: " ";
 }
-.swiper-button-next svg, .swiper-button-prev svg{
-width: 20px;
-height: 20px;
-}
-.swiper-button-next, .swiper-button-prev{
 
-margin-top: 1px;
+.swiper-button-next svg, .swiper-button-prev svg {
+  width: 20px;
+  height: 20px;
 }
+
+.swiper-button-next, .swiper-button-prev {
+  margin-top: 1px;
+}
+
 .swiper-button-prev, .swiper-rtl .swiper-button-next {
-left: auto;
-}
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
-right: 10;
+  left: auto;
 }
 
-.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-bottom: var(--swiper-pagination-bottom,px);
-z-index: 10;
-color: transparent;
-left: 14px;
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: 10;
 }
-.swiper-pagination-current{
-color: black;
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, px);
+  z-index: 10;
+  color: transparent;
+  left: 14px;
 }
+
+.swiper-pagination-current {
+  color: black;
+}
+
 .gallery-top .swiper-slide .swiper-box {
-opacity: 0;
-transform: scale(1);
+  opacity: 0;
+  transform: scale(1);
 }
+
 .gallery-top .swiper-slide-active .swiper-box {
-transform: scale(0.9);
-opacity: 1;
+  transform: scale(0.9);
+  opacity: 1;
 }
-@media (max-width: 1920px){
-.gallery-top .swiper-slide-active .swiper-box{
-opacity: 1;
+
+@media (max-width: 1920px) {
+  .gallery-top .swiper-slide-active .swiper-box {
+    opacity: 1;
+  }
 }
-} 
 .fixed-size-image {
-    width: 320px;  /* Set the width you want */
-    height: 500px; /* Set the height you want */
-    object-fit: cover;
-    border-radius: 12px;
-}
+  width: 320px; /* Set the width you want */
+  height: 500px; /* Set the height you want */
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+}/*# sourceMappingURL=main1.css.map */

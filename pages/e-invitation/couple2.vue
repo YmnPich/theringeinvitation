@@ -16,7 +16,7 @@
               <div class="swiper-container gallery-top w-full md:w-[1028px] mx-auto xl:overflow-hidden pt-6">
                 <div class="swiper-wrapper w-max mx-auto mb-5 flex gap-3">
                   <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="https://pagedone.io/asset/uploads/1712568734.png" alt="Watch image" />
+                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
 <!--                                   
                     <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
                         <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Golden&Sliver Metal Belt Watch </h5>
@@ -24,7 +24,7 @@
                     </div> -->
                   </div>      
                   <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="https://pagedone.io/asset/uploads/1712569721.png" alt="Watch image" />
+                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
                                 
                     <!-- <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
                         <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Golden Metal Belt Watch </h5>
@@ -32,7 +32,7 @@
                     </div> -->
                   </div>
                   <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0  w-full rounded-xl object-cover" src="https://pagedone.io/asset/uploads/1712568744.png" alt="Watch image" />
+                    <img class="grow shrink basis-0  w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
                                     
                     <!-- <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
                         <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Sliver Metal Belt Watch </h5>
@@ -40,7 +40,7 @@
                     </div> -->
                   </div>
                   <div class="swiper-slide max-w-[319px] grid">
-                  <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="https://pagedone.io/asset/uploads/1712568734.png" alt="Watch image" />
+                  <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
                                 
                   <!-- <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
                       <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Golden&Sliver Metal Belt Watch </h5>
@@ -48,7 +48,7 @@
                   </div> -->
                   </div>
                   <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="https://pagedone.io/asset/uploads/1712569721.png" alt="Watch image" />
+                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
 <!--                                 
                     <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
                         <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Golden Metal Belt Watch </h5>
@@ -56,7 +56,7 @@
                     </div> -->
                   </div>
                   <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="https://pagedone.io/asset/uploads/1712568734.png" alt="Watch image" />
+                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
                                   
                     <!-- <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
                         <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Golden&Sliver Metal Belt Watch </h5>
@@ -64,7 +64,7 @@
                     </div> -->
                   </div>      
                   <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="https://pagedone.io/asset/uploads/1712569721.png" alt="Watch image" />
+                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
                                 
                     <!-- <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
                         <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Golden Metal Belt Watch </h5>
@@ -72,7 +72,7 @@
                     </div> -->
                   </div>
                   <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0  w-full rounded-xl object-cover" src="https://pagedone.io/asset/uploads/1712568744.png" alt="Watch image" />
+                    <img class="grow shrink basis-0  w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
                                     
                     <!-- <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
                         <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Sliver Metal Belt Watch </h5>
@@ -80,7 +80,7 @@
                     </div> -->
                   </div>
                   <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0  w-full rounded-xl object-cover" src="https://pagedone.io/asset/uploads/1712568744.png" alt="Watch image" />
+                    <img class="grow shrink basis-0  w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
                                     
                     <!-- <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
                         <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Sliver Metal Belt Watch </h5>
@@ -104,48 +104,48 @@
   import Swiper from 'swiper'; // Import Swiper.js
   
   export default {
-  mounted() {
-    // Initialize Swiper after the component mounts
-    this.initSwiper();
-  },
-  methods: {
-    initSwiper() {
-      const swiper = new Swiper('.gallery-top', {
-        spaceBetween: 20,
-        slidesPerView: 3,
-        parallax: true,
-        centeredSlides: true,
-        loop: true,
-        autoplay: true,
-        autoplaySpeed: 2000, // Adjust autoplay speed (milliseconds)
-        slideToClickedSlide: true,
-        paginationClickable: true,
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev'
-        },
-        breakpoints: {
-          1920: {
-            slidesPerView: 3,
-            spaceBetween: 20,
+    mounted() {
+      // Initialize Swiper after the component mounts
+      this.initSwiper();
+    },
+    methods: {
+      initSwiper() {
+        const swiper = new Swiper('.gallery-top', {
+          spaceBetween: 20,
+          slidesPerView: 3,
+          parallax: true,
+          centeredSlides: true,
+          loop: true,
+          autoplay: true,
+          autoplaySpeed: 2000, // Adjust autoplay speed (milliseconds)
+          slideToClickedSlide: true,
+          paginationClickable: true,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
           },
-          1400: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-            centeredSlides: true
+          breakpoints: {
+            1920: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            1400: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+              centeredSlides: true
+            },
+            900: {
+              slidesPerView: 3,
+              spaceBetween: 15,
+              centeredSlides: true
+            },
+            200: {
+              slidesPerView: 2,
+              spaceBetween: 15
+            }
           },
-          900: {
-            slidesPerView: 3,
-            spaceBetween: 15,
-            centeredSlides: true
-          },
-          200: {
-            slidesPerView: 2,
-            spaceBetween: 15
-          }
-        },
-      });
+        });
+      }
     }
-  }
-};
+  };
   </script>
