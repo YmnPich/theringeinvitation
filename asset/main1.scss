@@ -755,3 +755,9 @@ opacity: 1;
 opacity: 1;
 }
 } 
+.fixed-size-image {
+  width: 320px;  /* Set the width you want */
+  height: 500px; /* Set the height you want */
+  object-fit: cover;
+  border-radius: 12px;
+}
