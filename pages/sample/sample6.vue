@@ -57,14 +57,14 @@
           </table>
           <div class = "invite" style = "color : #d8ad83 ;">ដែលនិងប្រព្រឹត្តទៅនៅ</div>
           <div class = "invite-date" style = "color :#d8ad83 ; font-family : battambang; font-weight : 700 ; font-size : 18px ;">ថ្ងៃ ពុធ ទី​ ២៨ ខែ មករា ឆ្នាំ ២០២៤</div>
-          <div class = "weddings" style = "color : #d8ad83 ;">កម្មវិធីមង្គលអាពាហ៍ពិពាហ៍</div>
+          <div class = "weddings" style = "font-family: Khmer;font-size: 26px; color: #d8ad83; font-weight: 700;">កម្មវិធីមង្គលអាពាហ៍ពិពាហ៍</div>
           <div class = "main-tab">
         <div class = "tab-box">
-          <button class = "tab_btn active" style = "
+          <button class = "tab_btn6 active" style = "
           font-family: Khmer;"> ថ្ងៃទី ២៧ ខែ កុម្ភះ</button>
           <button style = "
-          font-family: Khmer" class = "tab_btn"> ថ្ងៃទី ២៨ ខែ កុម្ភះ</button>
-          <div class = "line"></div>
+          font-family: Khmer" class = "tab_btn6"> ថ្ងៃទី ២៨ ខែ កុម្ភះ</button>
+          <div class = "line" style = "background-color: #d8ad83;"></div>
         </div>
         <div class = "content-box">
           <div class="content active">
@@ -80,18 +80,20 @@
               ផ្លូវលេខ៥៨០ សង្កាត់បឹងកក់២ ខណ្ឌទួលគោក
               រាជធានីភ្នំពេញ
             </div>
-            <div class = "map-content" style = "border-color: #d8ad83;">
-              <table>
+            <button class = "map-content" style = "border-color: #d8ad83;">
+              <a href="https://maps.app.goo.gl/UpFyxGX6A5TChtGZA">
+                <table>
                 <tr>
                   <td>
                     <img style="width: 45px; height: 43px;" src="/asset/googlemap-trans.png">
                   </td>
                   <td>
-                    <div class = "event"style = "font-family: khmer; font-size: 14px; color: #d8ad83;">ទីតាំងកម្មវិធី</div>
+                    <div class = "event" style = "color: #d8ad83;">Event location</div>
                   </td>
                 </tr>
               </table>
-            </div>
+              </a>
+            </button>
           </div>
           <div class="content">
             <div class = "header"style = "font-family: Khmer;font-size: 24px; color: #d8ad83;">កម្មវិធីពេលព្រឹក</div>
@@ -144,18 +146,20 @@
 មណ្ឌលសន្និបាតនិងពិព័រណ៍អន្តរជាតិជ្រោយចង្វារ
 (OCIC) អគារ F&G
             </div>
-            <div class = "map-content" style = "border-color: #d8ad83;">
-              <table>
+            <button class = "map-content" style = "border-color: #d8ad83">
+              <a href="https://maps.app.goo.gl/UpFyxGX6A5TChtGZA">
+                <table>
                 <tr>
                   <td>
                     <img style="width: 45px; height: 43px;" src="/asset/googlemap-trans.png">
                   </td>
                   <td>
-                    <div class = "event"style = "font-family: khmer; font-size: 14px; color: #d8ad83;">ទីតាំងកម្មវិធី</div>
+                    <div class = "event" style = "color: #d8ad83;">Event location</div>
                   </td>
                 </tr>
               </table>
-            </div>
+              </a>
+            </button>
           </div>
         </div>
         </div>
@@ -166,7 +170,7 @@
                   <div class ="bar2" style = "background-color : #d8ad83;"></div>
                 </td>
                 <td>
-                  <div class ="mid-text2" style = "color : #d8ad83;">កម្រងរូបភាព</div>
+                  <div class ="mid-text2" style = "font-family: Khmer;font-size: 23px; color: #d8ad83; font-weight: 700;">កម្រងរូបភាព</div>
                 </td>
                 <td>
                   <div class ="bar2" style = "background-color :#d8ad83 ;"></div>
@@ -199,7 +203,63 @@
               </tr>
             </table>
             <img class = "main-gallery"style = "width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
-            <div class = "main-qr" style = "padding-bottom : 20px ; background-color : white ; margin-left : 20px ; margin-right : 20px ;">
+            <div class = "row-content">
+            <table>
+              <tr>
+                <td>
+                  <div class ="bar2" style = "background-color : #d8ad83; width: 115px;"></div>
+                </td>
+                <td>
+                  <div class ="mid-text2" style = "font-family: Khmer;font-size: 24px; color: #d8ad83; font-weight: 700;">ឆាប់ៗនេះ</div>
+                </td>
+                <td>
+                  <div class ="bar2" style = "background-color :#d8ad83 ;width: 115px;"></div>
+                </td>
+              </tr>
+            </table>
+      </div>
+      <div class="flex items-start justify-center w-full gap-4 count-down-main" style = "margin-top : 10px">
+      <div class="timer w-16">
+      <div
+      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden" style = "background-color: #d8ad83;">
+      <h3
+        class="countdown-element days font-Cormorant font-semibold text-2xl text-white text-center">
+      </h3>
+      </div>
+      <p class="text-lg font-Cormorant font-medium text-gray-900 mt-1 text-center w-full">days</p>
+      </div>
+      <h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
+      <div class="timer w-16">
+      <div
+      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden" style = "background-color: #d8ad83;">
+      <h3
+        class="countdown-element hours font-Cormorant font-semibold text-2xl text-white text-center">
+      </h3>
+      </div>
+      <p class="text-lg font-Cormorant font-normal text-gray-900 mt-1 text-center w-full">hours</p>
+      </div>
+      <h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
+      <div class="timer w-16">
+      <div
+      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden" style = "background-color: #d8ad83;">
+      <h3
+        class="countdown-element minutes font-Cormorant font-semibold text-2xl text-white text-center">
+      </h3>
+      </div>
+      <p class="text-lg font-Cormorant font-normal text-gray-900 mt-1 text-center w-full">minutes</p>
+      </div>
+      <h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
+      <div class="timer w-16">
+      <div
+      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden " style = "background-color: #d8ad83;">
+      <h3
+        class="countdown-element seconds font-Cormorant font-semibold text-2xl text-white text-center animate-countinsecond">
+      </h3>
+      </div>
+      <p class="text-lg font-Cormorant font-normal text-gray-900 mt-1 text-center w-full">seconds</p>
+      </div>
+      </div>
+            <div class = "main-qr" style = "padding-bottom : 20px ; background-color : white ; margin-left : 20px ; margin-right : 20px ;margin-top: 60px;">
               <div style = "text-align: center;padding-top: 30px;margin-bottom: 30px; font-size: 20px; font-weight: 600;font-family: Playfair Display SC, serif;">SCAN OR CLICK ON QR CODE</div>
               <img class = "qr-code" style = "margin-bottom: 20px;"src = "/asset/QR-DOLLAR.png">
               <img class = "qr-code" src = "/asset/QR-RIEL.png">
@@ -220,6 +280,7 @@
               </tr>
             </table>
           </div>
+          
           </div>
           
     </div>
@@ -228,8 +289,56 @@
 export default {
   
   mounted() {
+
+    let dest = new Date("2024-09-15 00:00:00").getTime();
+      let x = setInterval(function () {
+      let now = new Date().getTime();
+      let diff = dest - now;
+      
+        // Check if the countdown has reached zero or negative
+  if (diff <= 0) {
+    clearInterval(x); // Stop the countdown
+    return; // Exit the function
+  }
+
+  let days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+  let seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+
+  days = String(days).padStart(2, '0');
+  hours = String(hours).padStart(2, '0');
+  minutes = String(minutes).padStart(2, '0');
+  seconds = String(seconds).padStart(2, 
+ '0');
+
+  // Get elements by class name
+  let countdownElements = document.getElementsByClassName("countdown-element");
+
+  // Loop through the elements and update their content
+  for (let i = 0; i < countdownElements.length; i++) {
+    let className = countdownElements[i].classList[1]; // Get the second class name
+    switch (className) {
+      case "days":
+        countdownElements[i].innerHTML = days;
+        break;
+      case "hours":
+        countdownElements[i].innerHTML = hours;
+        break;
+      case "minutes":
+        countdownElements[i].innerHTML = minutes;
+        break;
+      case "seconds":
+        countdownElements[i].innerHTML = seconds;
+        break;
+      default:
+        break;
+    }
+  }
+}, 1000);
     
-    const tabs = document.querySelectorAll('.tab_btn');
+    const tabs = document.querySelectorAll('.tab_btn6');
     const content_display = document.querySelectorAll('.content');
     
     tabs.forEach((tab, index) => {

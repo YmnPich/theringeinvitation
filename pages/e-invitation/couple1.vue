@@ -1,63 +1,98 @@
 <template>
-    <div class="row-content">
-      <table>
-        <tr>
-          <td>
-            <div class="bar"></div>
-          </td>
-          <td>
-            <div class="mid-text">PHOTO GALLERY</div>
-          </td>
-          <td>
-            <div class="bar"></div>
-          </td>
-        </tr>
-      </table>
-    </div>
-    <div>
-      <table>
-        <img
-          src="https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080"
-          alt="Photo from Wedding Gallery"
-          style="width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;"
-          @click="openFullImage('https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080')"
-        />
-        <img
-          style="width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;"
-          src="https://images.unsplash.com/photo-1640654454393-d0a6efcef79f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwyMnx8Y291cGxlJTIwd2VkZGluZyUyMHBob3RvfGVufDB8fHx8MTcyMjM1Mzc4NHww&ixlib=rb-4.0.3&q=80&w=1080"
-          alt="Photo from Wedding Gallery"
-          @click="openFullImage('https://images.unsplash.com/photo-1640654454393-d0a6efcef79f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwyMnx8Y291cGxlJTIwd2VkZGluZyUyMHBob3RvfGVufDB8fHx8MTcyMjM1Mzc4NHww&ixlib=rb-4.0.3&q=80&w=1080')"
-        />
-      </table>
-      <div id="FullImageView" style="display: none;">
-        <img id="FullImage" />
-        <button
-          @click="closeFullImage"
-          style="position: absolute; top: 10px; right: 10px; background-color: #fff; color: #000; border: none; padding: 10px; cursor: pointer;"
-        >
-          X
-        </button>
+  <div class="flex items-start justify-center w-full gap-4 count-down-main" style = "margin-top : 10px">
+      <div class="timer w-16">
+      <div
+      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden">
+      <h3
+        class="countdown-element days font-Cormorant font-semibold text-2xl text-white text-center">
+      </h3>
       </div>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    data() {
-      return {
-        fullImageUrl: "", // Stores the URL of the currently opened full image
-      };
-    },
-    methods: {
-      openFullImage(imageUrl) {
-        this.fullImageUrl = imageUrl;
-        document.getElementById("FullImage").src = imageUrl;
-        document.getElementById("FullImageView").style.display = "block";
-      },
-      closeFullImage() {
-        this.fullImageUrl = "";
-        document.getElementById("FullImageView").style.display = "none";
-      },
-    },
-  };
-  </script>
+      <p class="text-lg font-Cormorant font-medium text-gray-900 mt-1 text-center w-full">days</p>
+      </div>
+      <h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
+      <div class="timer w-16">
+      <div
+      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden">
+      <h3
+        class="countdown-element hours font-Cormorant font-semibold text-2xl text-white text-center">
+      </h3>
+      </div>
+      <p class="text-lg font-Cormorant font-normal text-gray-900 mt-1 text-center w-full">hours</p>
+      </div>
+      <h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
+      <div class="timer w-16">
+      <div
+      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden">
+      <h3
+        class="countdown-element minutes font-Cormorant font-semibold text-2xl text-white text-center">
+      </h3>
+      </div>
+      <p class="text-lg font-Cormorant font-normal text-gray-900 mt-1 text-center w-full">minutes</p>
+      </div>
+      <h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
+      <div class="timer w-16">
+      <div
+      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden ">
+      <h3
+        class="countdown-element seconds font-Cormorant font-semibold text-2xl text-white text-center animate-countinsecond">
+      </h3>
+      </div>
+      <p class="text-lg font-Cormorant font-normal text-gray-900 mt-1 text-center w-full">seconds</p>
+      </div>
+      </div>
+                          
+</template>
+<script>
+
+export default {
+  mounted() {
+    let dest = new Date("2024-09-15 00:00:00").getTime();
+      let x = setInterval(function () {
+      let now = new Date().getTime();
+      let diff = dest - now;
+      
+        // Check if the countdown has reached zero or negative
+  if (diff <= 0) {
+    clearInterval(x); // Stop the countdown
+    return; // Exit the function
+  }
+
+  let days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+  let seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+
+  days = String(days).padStart(2, '0');
+  hours = String(hours).padStart(2, '0');
+  minutes = String(minutes).padStart(2, '0');
+  seconds = String(seconds).padStart(2, 
+ '0');
+
+  // Get elements by class name
+  let countdownElements = document.getElementsByClassName("countdown-element");
+
+  // Loop through the elements and update their content
+  for (let i = 0; i < countdownElements.length; i++) {
+    let className = countdownElements[i].classList[1]; // Get the second class name
+    switch (className) {
+      case "days":
+        countdownElements[i].innerHTML = days;
+        break;
+      case "hours":
+        countdownElements[i].innerHTML = hours;
+        break;
+      case "minutes":
+        countdownElements[i].innerHTML = minutes;
+        break;
+      case "seconds":
+        countdownElements[i].innerHTML = seconds;
+        break;
+      default:
+        break;
+    }
+  }
+}, 1000);
+  }
+};
+</script>

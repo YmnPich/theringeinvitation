@@ -1,5 +1,6 @@
 <template>
 <section class="py-24 " style = "width:390px ; margin: auto">
+        
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 overflow-hidden">
           <!-- <div class="pb-16">
             <h2 class="w-full text-center text-gray-900 text-4xl font-bold font-manrope leading-loose pb-2.5">Our Gallery</h2>
@@ -107,6 +108,45 @@
     mounted() {
       // Initialize Swiper after the component mounts
       this.initSwiper();
+      const tabs = document.querySelectorAll('.tab_btn');
+    const contentDisplays = document.querySelectorAll('.content'); // Use plural form for clarity
+
+    function handleTabClick(event) {
+      // Remove active class from all tabs
+      tabs.forEach(tab => tab.classList.remove('active'));
+
+      // Add active class to the clicked tab
+      event.target.classList.add('active');   
+
+
+      // Animate line under active tab (assuming line element exists)
+      const line = document.querySelector('.line');
+      if (line) {
+        line.style.width = event.target.offsetWidth + "px";
+        line.style.left = event.target.offsetLeft + "px";
+      }
+
+      // Hide all content displays
+      contentDisplays.forEach(content => content.classList.remove('active'));
+
+      // Show the content display corresponding to the clicked tab
+      const clickedTabIndex = Array.from(tabs).indexOf(event.target);
+      if (clickedTabIndex !== -1) {
+        contentDisplays[clickedTabIndex].classList.add('active');
+      } else {
+        console.error('Clicked tab not found in content displays. Check for consistency.');
+      }
+    }
+
+    // Attach click event listener to all tabs
+    tabs.forEach(tab => tab.addEventListener('click', handleTabClick));
+
+    // FullView function (assuming image element and container with ID "FullImageView" exist)
+    function FullView(ImgLink) {
+      document.getElementById("FullImage").src = ImgLink;
+      document.getElementById("FullImageView").style.display = "block";   
+
+    }
     },
     methods: {
       initSwiper() {
