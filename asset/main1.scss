@@ -878,3 +878,15 @@ opacity: 1;
   background-color: #e0e3e7;
   border-radius: 64px;
 }
+
+//sample9
+.main-container9 {
+  width: 390px;
+  margin: auto;
+  background-image: url("/asset/i.jpg");
+  background-size: contain; /* Or cover */
+  background-position: center center; /* Adjust as needed */
+  background-attachment: fixed;
+  overflow-y: auto;
+  background-repeat: no-repeat;
+}

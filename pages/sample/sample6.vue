@@ -290,7 +290,7 @@ export default {
   
   mounted() {
 
-    let dest = new Date("2024-09-15 00:00:00").getTime();
+    let dest = new Date("2025-09-15 00:00:00").getTime();
       let x = setInterval(function () {
       let now = new Date().getTime();
       let diff = dest - now;

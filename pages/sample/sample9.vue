@@ -1,5 +1,5 @@
 <template>
-   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -9,123 +9,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-  <div class = "main-container8">
-      <div style = "padding-top: 80px;padding-bottom: 30px;">
-        <div class = "title8">
-          YOU ARE CORDIALLY INVITED
+    <div class = "main-container9">
+        <div style  = "padding-top: 10px;padding-left: 20px;">
+            <table >
+            <tr>
+                <td>
+                    <img style = "width:169px;height: 174px;object-fit: cover;border-radius: 8px;"src = "/asset/thering-couple.jpg">
+                    <img style = "width:169px;height: 174px;object-fit: cover;border-radius: 8px;margin-top: 5px;"src = "/asset/thering-couple.jpg">
+                    <img style = "width:169px;height: 174px;object-fit: cover;border-radius: 8px;margin-top: 5px;"src = "/asset/thering-couple.jpg">
+                    <img style = "width:169px;height: 174px;object-fit: cover;border-radius: 8px;margin-top: 5px;margin-bottom: 10px;"src = "/asset/thering-couple.jpg">
+                </td>
+                <td>
+                    <div style = "margin-left: 10px;">
+                        <div class = "wedding-title" style = "font-size: 16px;">
+                            THE WEDDING OF
+                        </div>
+                        <div style = "margin-top: 40px;margin-bottom: 40px;">
+                            <div class = "couple5-name">Sebastian</div>
+                            <div class = "couple5-name">&</div>
+                            <div class = "couple5-name">Rachelle</div>
+                        </div>
+                        <div  style = "font-size: 18px;margin-bottom: 10px;">
+                            May 25 2024
+                        </div>
+                        <div  style = "font-size: 18px;margin-bottom: 10px;">
+                            AT 2:30 PM
+                        </div>
+                        <div  style = "font-size: 18px;margin-bottom: 10px;">
+                            123 ANYWHERE
+                        </div>
+                        <div  style = "font-size: 18px;margin-bottom: 10px;">
+                            ST, ANY CITY, ST, 123
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div style = "margin-top: 120px;">
+            <div class = "text" style = "margin-top: 60px">IN THE CELEBRATION</div>
+            <div class = "text">OF THEIR WEDDING</div>
         </div>
-        <div class = "title8">
-          TO ATTEND THE
-        </div>
-      </div>
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 overflow-hidden">
-          <!-- <div class="pb-16">
-            <h2 class="w-full text-center text-gray-900 text-4xl font-bold font-manrope leading-loose pb-2.5">Our Gallery</h2>
-            <p class="w-full text-center text-gray-600 text-lg font-normal leading-8">Explore the essence of beauty in our gallery's intimate space.</p>
-          </div> -->
-        
-              <!--Slider Wrapper-->
-           <div class="mx-auto w-auto relative">
-              <!-- <button id="slider-button-left" class="top-[35%] swiper-button-prev w-11 h-11 p-3 xl:flex hidden shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] items-center justify-center border border-gray-300 rounded-lg group hover:bg-gray-900 transition-all duration-700 ease-in-out">
-                <svg class="text-gray-900 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M12.5002 14.9999L7.50005 9.99973L12.5032 4.99658" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </button> -->
-              <div class="swiper-container gallery-top w-full md:w-[1028px] mx-auto xl:overflow-hidden pt-6">
-                <div class="swiper-wrapper w-max mx-auto mb-5 flex gap-3">
-                  <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
-<!--                                   
-                    <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
-                        <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Golden&Sliver Metal Belt Watch </h5>
-                        <p class="w-full text-center text-gray-600 text-base font-normal leading-relaxed">a chic and understated accessory for any occasion.</p>
-                    </div> -->
-                  </div>      
-                  <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
-                                
-                    <!-- <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
-                        <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Golden Metal Belt Watch </h5>
-                        <p class="w-full text-center text-gray-600 text-base font-normal leading-relaxed">a chic and understated accessory for any occasion.</p>
-                    </div> -->
-                  </div>
-                  <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0  w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
-                                    
-                    <!-- <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
-                        <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Sliver Metal Belt Watch </h5>
-                        <p class="w-full text-center text-gray-600 text-base font-normal leading-relaxed">a chic and understated accessory for any occasion.</p>
-                    </div> -->
-                  </div>
-                  <div class="swiper-slide max-w-[319px] grid">
-                  <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
-                                
-                  <!-- <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
-                      <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Golden&Sliver Metal Belt Watch </h5>
-                      <p class="w-full text-center text-gray-600 text-base font-normal leading-relaxed">a chic and understated accessory for any occasion.</p>
-                  </div> -->
-                  </div>
-                  <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
-<!--                                 
-                    <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
-                        <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Golden Metal Belt Watch </h5>
-                        <p class="w-full text-center text-gray-600 text-base font-normal leading-relaxed">a chic and understated accessory for any occasion.</p>
-                    </div> -->
-                  </div>
-                  <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
-                                  
-                    <!-- <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
-                        <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Golden&Sliver Metal Belt Watch </h5>
-                        <p class="w-full text-center text-gray-600 text-base font-normal leading-relaxed">a chic and understated accessory for any occasion.</p>
-                    </div> -->
-                  </div>      
-                  <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0 w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
-                                
-                    <!-- <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
-                        <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Golden Metal Belt Watch </h5>
-                        <p class="w-full text-center text-gray-600 text-base font-normal leading-relaxed">a chic and understated accessory for any occasion.</p>
-                    </div> -->
-                  </div>
-                  <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0  w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
-                                    
-                    <!-- <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
-                        <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Sliver Metal Belt Watch </h5>
-                        <p class="w-full text-center text-gray-600 text-base font-normal leading-relaxed">a chic and understated accessory for any occasion.</p>
-                    </div> -->
-                  </div>
-                  <div class="swiper-slide max-w-[319px] grid">
-                    <img class="grow shrink basis-0  w-full rounded-xl object-cover" src="/asset/thering-couple.jpg" alt="Watch image" />
-                                    
-                    <!-- <div class="swiper-box mx-auto relative flex-col justify-center items-center gap-1 flex mt-5">
-                        <h5 class="w-full text-center text-gray-900 text-xl font-medium leading-loose">Sliver Metal Belt Watch </h5>
-                        <p class="w-full text-center text-gray-600 text-base font-normal leading-relaxed">a chic and understated accessory for any occasion.</p>
-                    </div> -->
-                  </div>
-                </div>
-              </div>
-              <!-- <button id="slider-button-right" class="swiper-button-next top-[35%] xl:flex hidden shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] w-11 h-11 items-center justify-center border border-gray-300 rounded-lg group  transition-all duration-700 ease-in-out hover:bg-gray-900">
-                <svg class="text-gray-900 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M7.50301 4.99637L12.5032 9.99657L7.50006 14.9997" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-              </button> -->
-            </div>
-        </div>
-        <div class = "title8" style = "margin-top: 40px;margin-bottom: 30px;">
-          WEDDING OF
-        </div>
-        <div>
-          <div class = "couple5-name">Sebastian</div>
-          <div class = "couple5-name">&</div>
-          <div class = "couple5-name">Rachelle</div>
-        </div>
-        <div class = "text" style = "margin-top: 60px">IN THE CELEBRATION</div>
-        <div class = "text">OF THEIR</div>
-        <img style = "width: 305px; height: 103px; margin: auto; margin-top: 40px; margin-bottom: 40px;" src="/asset/wedding.png" alt="Discover Nuxt 3" />
-        <table style = "margin: auto;">
+        <table style = "margin: auto;margin-top: 40px;">
         <tr>
         <td style="padding-right: 10px; font-weight: 700;">MR. CHAN SAVOEUN</td>
         <td style="padding-right: 10px;font-weight: 700;">MR. PHONG NARONG</td>
@@ -138,7 +62,8 @@
       <div class = "thankContent" style = "margin-top: 30px;">
         Cordinally request the honor of your presence on the auspicious occasion of the wedding our children
       </div>
-      <table style = "margin-top: 30px">
+        </div>
+        <table>
         <tr>
           <td style="padding: 10px;">
             <div>GROOM</div>
@@ -194,7 +119,7 @@
         
     </div>
     <img class = "wedding-timelines"src = "/asset/wedding-timeline.png">
-        <div class = "main-tab" style = "margin-right: 20px ; margin-left: 20px">
+    <div class = "main-tab" style = "margin-right: 20px ; margin-left: 20px">
         <div class = "tab-box">
           <button class = "tab_btn8 active" style = "
           font-family: Khmer;"> 28 FEB 2024</button>
@@ -309,17 +234,17 @@
           </div>
         </div>
       </div>
-      <div class = "row-content">
+          <div class = "row-content">
             <table>
               <tr>
                 <td>
-                  <div class ="bar" style = "width: 105px;"></div>
+                  <div class ="bar" style = "width: 100px;margin-left: 6px;"></div>
                 </td>
                 <td>
                   <div class ="mid-text">PHOTO GALLERY</div>
                 </td>
                 <td>
-                  <div class ="bar" style = "width: 105px;"></div>
+                  <div class ="bar" style = "width: 100px;"></div>
                 </td>
               </tr>
             </table>
@@ -364,7 +289,7 @@
             <table>
               <tr>
                 <td>
-                  <div class ="bar" style = "width: 105px;"></div>
+                  <div class ="bar" style = "width: 105px;margin-left: 10px;"></div>
                 </td>
                 <td>
                   <div class ="mid-text">COMING SOON</div>
@@ -378,7 +303,7 @@
         <div class="flex items-start justify-center w-full gap-4 count-down-main" style = "margin-top : 10px ;">
       <div class="timer w-16">
       <div
-      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden" style = "background-color: #9b6738;">
+      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden" style = "background-color: #893aa0;">
       <h3
         class="countdown-element days font-Cormorant font-semibold text-2xl text-white text-center">
       </h3>
@@ -388,7 +313,7 @@
       <h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
       <div class="timer w-16">
       <div
-      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden" style = "background-color: #9b6738;">
+      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden" style = "background-color: #893aa0;">
       <h3
         class="countdown-element hours font-Cormorant font-semibold text-2xl text-white text-center">
       </h3>
@@ -398,7 +323,7 @@
       <h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
       <div class="timer w-16">
       <div
-      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden" style = "background-color: #9b6738;">
+      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden" style = "background-color: #893aa0;">
       <h3
         class="countdown-element minutes font-Cormorant font-semibold text-2xl text-white text-center">
       </h3>
@@ -408,7 +333,7 @@
       <h3 class="font-manrope font-semibold text-2xl text-gray-900">:</h3>
       <div class="timer w-16">
       <div
-      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden " style = "background-color: #9b6738;">
+      class=" bg-indigo-600 py-4 px-2 rounded-lg overflow-hidden " style = "background-color: #893aa0;">
       <h3
         class="countdown-element seconds font-Cormorant font-semibold text-2xl text-white text-center animate-countinsecond">
       </h3>
@@ -416,7 +341,7 @@
       <p class="text-lg font-Cormorant font-normal text-gray-900 mt-1 text-center w-full">seconds</p>
       </div>
       </div>
-      <div class = "main-qr" style = "padding-bottom : 20px; margin-left : 20px ; margin-right : 20px ; background-color : white; margin-top: 60px;">
+       <div class = "main-qr" style = "padding-bottom : 20px; margin-left : 20px ; margin-right : 20px ; background-color : white; margin-top: 60px;">
               <div style = "text-align: center;padding-top: 30px;margin-bottom: 30px; font-size: 20px; font-weight: 600;font-family: Playfair Display SC, serif;">SCAN OR CLICK ON QR CODE</div>
               <img class = "qr-code" style = "margin-bottom: 20px;"src = "/asset/QR-DOLLAR.png">
               <img class = "qr-code"src = "/asset/QR-RIEL.png">
@@ -439,7 +364,8 @@
             </table>
           </div>
           </div>
-  </div>
+          
+    </div>
 </template>
 <script>
 import Swiper from 'swiper'; // Import Swiper.js
