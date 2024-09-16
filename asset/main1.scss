@@ -263,12 +263,19 @@ body{
 
 // sample 2
 .main-container{
+  // width: 390px;
+  // margin: auto;
+  // background-image: url("/asset/sample2-background.jpg"); /* Replace with your image path */
+  // // background-size: cover;
+  // background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
+  // overflow-y: auto;
+  background-image: url(/asset/sample2-background.jpg);
   width: 390px;
   margin: auto;
-  background-image: url("/asset/sample2-background.jpg"); /* Replace with your image path */
-  // background-size: cover;
-  background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
-  overflow-y: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 .flower-top{
   width: 390px;
@@ -453,12 +460,15 @@ body{
 // sample3 style
 
 .main-background{
+  // width: 390px;
+  // margin: auto;
+  // background-image: url("/asset/sample3-background.png"); /* Replace with your image path */
+  // // background-size: cover;
+  // background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
+  // overflow-y: auto;
+  background-image: url(/asset/sample3-background.png);
   width: 390px;
   margin: auto;
-  background-image: url("/asset/sample3-background.png"); /* Replace with your image path */
-  // background-size: cover;
-  background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
-  overflow-y: auto;
 }
 
 .wedding-title{
@@ -572,6 +582,7 @@ body{
   background-attachment: fixed;
   // filter: blur(8px)   
   // saturate(1.2) brightness(0.9);
+  height: 4980px;
 }
 
 .sub-background {
@@ -881,12 +892,12 @@ opacity: 1;
 
 //sample9
 .main-container9 {
+  background-image: url(/asset/samples9-background.jpg);
   width: 390px;
   margin: auto;
-  background-image: url("/asset/i.jpg");
-  background-size: contain; /* Or cover */
-  background-position: center center; /* Adjust as needed */
-  background-attachment: fixed;
-  overflow-y: auto;
+  background-size: contain;
   background-repeat: no-repeat;
-}
+  background-attachment: fixed;
+  background-position: center;
+  
+  }
