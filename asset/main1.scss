@@ -476,7 +476,7 @@ body{
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
-  margin-top: 140px;
+  padding-top: 140px;
   text-align: center;
 }
 
@@ -575,7 +575,7 @@ body{
 .main-background4 {
   width: 390px;
   margin: auto;
-  background-image: url("/asset/sample4-background.jpg"); /* Replace with your image path */
+  background-image: url("/asset/sample4-background.jpg"); 
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -896,8 +896,12 @@ opacity: 1;
   width: 390px;
   margin: auto;
   background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
   
-  }
+}
+
+.container-s{
+  background-image: url(/asset/samples9-background.jpg);
+  width: 390px;
+  background-size: contain;
+  margin: auto;
+}
