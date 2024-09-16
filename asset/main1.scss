@@ -896,12 +896,14 @@ opacity: 1;
   width: 390px;
   margin: auto;
   background-size: contain;
-  
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
 }
 
-.container-s{
-  background-image: url(/asset/samples9-background.jpg);
-  width: 390px;
-  background-size: contain;
-  margin: auto;
-}
+// .container-s{
+//   background-image: url(/asset/samples9-background.jpg);
+//   width: 390px;
+//   background-size: contain;
+//   margin: auto;
+// }
