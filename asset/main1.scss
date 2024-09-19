@@ -920,12 +920,14 @@ opacity: 1;
 
 
 .background-image {
-  background-image: url('/your-image.jpg'); /* Replace with your image path */
-  background-size: contain;
+  background-image: url('/asset/sample10.jpg'); /* Replace with your image path */
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  width: 100%; /* Ensure the background image always takes up the full width */
+  background-attachment: fixed; /* Make the background image fixed */
+  width: 390px; /* Ensure the background image always takes up the full width */
   height: auto; /* Maintain aspect ratio */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  margin : auto ;
 }
 
 @media (max-width: 768px) {
