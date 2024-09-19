@@ -897,13 +897,49 @@ opacity: 1;
   margin: auto;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: top;
   background-attachment: fixed;
+  background-position: center;
 }
 
-// .container-s{
-//   background-image: url(/asset/samples9-background.jpg);
-//   width: 390px;
-//   background-size: contain;
-//   margin: auto;
-// }
+.contain{
+  background-image: url(/asset/i.jpg);
+  width: 390px;
+  background-repeat: no-repeat;
+}
+
+.main-container10{
+  background-image: url(/asset/sample10.jpg);
+  width: 390px;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+
+.background-image {
+  background-image: url('/asset/sample10.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Make the background image fixed */
+  width: 390px; /* Ensure the background image always takes up the full width */
+  height: auto; /* Maintain aspect ratio */
+  background-repeat: no-repeat; /* Prevent image repetition */
+}
+
+@media (max-width: 768px) {
+  .background-image {
+    width: 100%; /* Adjust width as needed for smaller screens */
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+}
+
+.background-image {
+  flex-shrink: 0;
+}
