@@ -921,13 +921,13 @@ opacity: 1;
 
 .background-image {
   background-image: url('/asset/sample10.jpg'); /* Replace with your image path */
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-attachment: fixed; /* Make the background image fixed */
   width: 390px; /* Ensure the background image always takes up the full width */
-  height: auto; /* Maintain aspect ratio */
+  height: auto; /* Make the background image take up the full viewport height */
   background-repeat: no-repeat; /* Prevent image repetition */
-  margin : auto ;
+  margin: auto;
 }
 
 @media (max-width: 768px) {
@@ -939,6 +939,7 @@ opacity: 1;
 .container {
   display: flex;
   justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
 }
 
 .background-image {
