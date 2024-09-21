@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <div class="background-image">
-        <header class="headers">
+        <header class="headers10">
           <img style = "width : 390px; height : 82px ; object-fit : contain ;"src = "/asset/coupleLogo.png">
       </header>
         <div style = "padding-top: 40px;padding-bottom: 30px;">
@@ -349,3 +349,139 @@
         </div>
     </div>
   </template>
+  <script>
+  import Swiper from 'swiper'; // Import Swiper.js
+  import $ from 'jquery'
+  export default {
+    mounted() {
+      let dest = new Date("2025-09-15 00:00:00").getTime();
+        let x = setInterval(function () {
+        let now = new Date().getTime();
+        let diff = dest - now;
+        
+          // Check if the countdown has reached zero or negative
+    if (diff <= 0) {
+      clearInterval(x); // Stop the countdown
+      return; // Exit the function
+    }
+  
+    let days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((diff % (1000 * 60)) / 1000);
+  
+  
+    days = String(days).padStart(2, '0');
+    hours = String(hours).padStart(2, '0');
+    minutes = String(minutes).padStart(2, '0');
+    seconds = String(seconds).padStart(2, 
+   '0');
+  
+    // Get elements by class name
+    let countdownElements = document.getElementsByClassName("countdown-element");
+  
+    // Loop through the elements and update their content
+    for (let i = 0; i < countdownElements.length; i++) {
+      let className = countdownElements[i].classList[1]; // Get the second class name
+      switch (className) {
+        case "days":
+          countdownElements[i].innerHTML = days;
+          break;
+        case "hours":
+          countdownElements[i].innerHTML = hours;
+          break;
+        case "minutes":
+          countdownElements[i].innerHTML = minutes;
+          break;
+        case "seconds":
+          countdownElements[i].innerHTML = seconds;
+          break;
+        default:
+          break;
+      }
+    }
+  }, 1000);
+      // Initialize Swiper after the component mounts
+      this.initSwiper();
+      const tabs = document.querySelectorAll('.tab_btn8');
+    const contentDisplays = document.querySelectorAll('.content'); // Use plural form for clarity
+  
+    function handleTabClick(event) {
+      // Remove active class from all tabs
+      tabs.forEach(tab => tab.classList.remove('active'));
+  
+      // Add active class to the clicked tab
+      event.target.classList.add('active'); 
+  
+  
+      // Animate line under active tab (assuming line element exists)
+      const line = document.querySelector('.line');
+      if (line) {
+        line.style.width = event.target.offsetWidth + "px";
+        line.style.left = event.target.offsetLeft + "px";
+      }
+  
+      // Hide all content displays
+      contentDisplays.forEach(content => content.classList.remove('active'));
+  
+      // Show the content display corresponding to the clicked tab
+      const clickedTabIndex = Array.from(tabs).indexOf(event.target);
+      if (clickedTabIndex !== -1) {
+        contentDisplays[clickedTabIndex].classList.add('active');
+      } else {
+        console.error('Clicked tab not found in content displays. Check for consistency.');
+      }
+    }
+  
+    // Attach click event listener to all tabs
+    tabs.forEach(tab => tab.addEventListener('click', handleTabClick));
+  
+    // FullView function (assuming image element and container with ID "FullImageView" exist)
+    function FullView(ImgLink) {
+      document.getElementById("FullImage").src = ImgLink;
+      document.getElementById("FullImageView").style.display = "block";   
+  
+    }
+    },
+    methods: {
+      initSwiper() {
+        const swiper = new Swiper('.gallery-top', {
+          spaceBetween: 20,
+          slidesPerView: 3,
+          parallax: true,
+          centeredSlides: true,
+          loop: true,
+          autoplay: true,
+          autoplaySpeed: 2000, // Adjust autoplay speed (milliseconds)
+          slideToClickedSlide: true,
+          paginationClickable: true,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+          },
+          breakpoints: {
+            1920: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            1400: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+              centeredSlides: true
+            },
+            900: {
+              slidesPerView: 3,
+              spaceBetween: 15,
+              centeredSlides: true
+            },
+            200: {
+              slidesPerView: 2,
+              spaceBetween: 15
+            }
+          },
+        });
+      }
+
+    }
+  };
+  </script>

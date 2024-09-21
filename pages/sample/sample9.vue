@@ -83,13 +83,13 @@
         <div>
             <table>
                 <tr>
-                    <td><div class = "date-line" style = "background-color: #9b6738;"></div></td>
+                    <td><div class = "date-line" style = "background-color: #893aa0;"></div></td>
                 </tr>
                 <tr>
                     <td><div class = "day"style = "font-family: roboto; font-size: 16px;">SATURDAY</div></td>
                 </tr>
                 <tr>
-                    <td><div class = "dates-line" style = "background-color: #9b6738;"></div></td>
+                    <td><div class = "dates-line" style = "background-color: #893aa0;"></div></td>
                 </tr>
             </table>
         </div>
@@ -106,13 +106,13 @@
         <span class="year">
             <table>
                 <tr>
-                    <td><div class = "date-line" style = "background-color: #9b6738;"></div></td>
+                    <td><div class = "date-line" style = "background-color: #893aa0;"></div></td>
                 </tr>
                 <tr>
                     <td><div class = "day" style = "font-family: roboto; font-size: 16px;">AT 2:30 PM</div></td>
                 </tr>
                 <tr>
-                    <td><div class = "dates-line"style = "background-color: #9b6738;"></div></td>
+                    <td><div class = "dates-line"style = "background-color: #893aa0;"></div></td>
                 </tr>
             </table>
         </span>
@@ -121,20 +121,20 @@
     <img class = "wedding-timelines"src = "/asset/wedding-timeline.png">
     <div class = "main-tab" style = "margin-right: 20px ; margin-left: 20px">
         <div class = "tab-box">
-          <button class = "tab_btn8 active" style = "
+          <button class = "tab_btn9 active" style = "
           font-family: Khmer;"> 28 FEB 2024</button>
           <button style = "
-          font-family: Khmer" class = "tab_btn8">28 FEB 2024</button>
+          font-family: Khmer" class = "tab_btn9">28 FEB 2024</button>
           <!-- <div class = "line"></div> -->
         </div>
         <div class = "content-box">
           <div class="content active">
             <div class = "header">AFTERNOON CEREMONY</div>
-            <div class = "vertical-line"></div>
+            <div class = "vertical-line" style = "background-color: #893aa0;"></div>
             <div class = "event-text">3:00 PM</div>
             <div class = "event-text">Monk's Blessing</div>
   
-            <div class = "vertical-line"></div>
+            <div class = "vertical-line" style = "background-color: #893aa0;"></div>
             <div class = "event-text">5:00 PM</div>
             <div class = "event-text">
               Respectfully invite hornor guests at the bride's house
@@ -170,41 +170,41 @@
           </div>
           <div class="content">
             <div class = "header">MORNING CEREMONY</div>
-            <div class = "vertical-line"></div>
+            <div class = "vertical-line" style = "background-color: #893aa0;"></div>
             <div class = "event-text">6:30 AM</div>
             <div class = "event-text">assemble hornor guest to be ready Offering made in the Toul Kork district (Bride's house) during the processional rite</div>
   
-            <div class = "vertical-line"></div>
+            <div class = "vertical-line" style = "background-color: #893aa0;"></div>
             <div class = "event-text">7:30 AM</div>
             <div class = "event-text">
                 Offering during processtional rite
             </div>
   
-            <div class = "vertical-line"></div>
+            <div class = "vertical-line" style = "background-color: #893aa0;"></div>
             <div class = "event-text">8:00 AM</div>
             <div class = "event-text">
                 Sla Sating Ceremony
             </div>
   
-            <div class = "vertical-line"></div>
+            <div class = "vertical-line" style = "background-color: #893aa0;"></div>
             <div class = "event-text">8:30 AM</div>
             <div class = "event-text">
                 Ring Ceremony
             </div>
   
-            <div class = "vertical-line"></div>
+            <div class = "vertical-line" style = "background-color: #893aa0;"></div>
             <div class = "event-text">9:00 AM</div>
             <div class = "event-text">
                 Hair Cutting Ceremony
             </div>
   
-            <div class = "vertical-line"></div>
+            <div class = "vertical-line" style = "background-color: #893aa0;"></div>
             <div class = "event-text">10:00 AM</div>
             <div class = "event-text">
                 Sacrifice Ceremony , hand-typing Ceremony and sprikling of flowers
             </div>
   
-            <div class = "vertical-line"></div>
+            <div class = "vertical-line" style = "background-color: #893aa0;"></div>
             <div class = "event-text">12:00 AM</div>
             <div class = "event-text">
               Respectfully Invite hornor guests having lunch at Bride's house, Street 580, Sangkat Boeung Kak II, Khan Toul Kork
@@ -212,7 +212,7 @@
             </div>
   
             <div class = "header" style = "margin-top: 40px">EVENING CEREMONY</div>
-            <div class = "vertical-line"></div>
+            <div class = "vertical-line" style = "background-color: #893aa0;"></div>
             <div class = "event-text">5:00 PM</div>
             <div class = "event-text">
               Respectfully Invite guests to have dinner at the center Chroy Changvar International Convention and Exhibition Center (OCIC) F&G Building
@@ -238,13 +238,13 @@
             <table>
               <tr>
                 <td>
-                  <div class ="bar" style = "width: 100px;margin-left: 6px;"></div>
+                  <div class ="bar" style = "width: 100px;margin-left: 6px; background-color: #893aa0;"></div>
                 </td>
                 <td>
                   <div class ="mid-text">PHOTO GALLERY</div>
                 </td>
                 <td>
-                  <div class ="bar" style = "width: 100px;"></div>
+                  <div class ="bar" style = "width: 100px;background-color: #893aa0;"></div>
                 </td>
               </tr>
             </table>
@@ -289,13 +289,13 @@
             <table>
               <tr>
                 <td>
-                  <div class ="bar" style = "width: 105px;margin-left: 10px;"></div>
+                  <div class ="bar" style = "width: 105px;margin-left: 10px;background-color: #893aa0;"></div>
                 </td>
                 <td>
                   <div class ="mid-text">COMING SOON</div>
                 </td>
                 <td>
-                  <div class ="bar" style = "width: 105px;"></div>
+                  <div class ="bar" style = "width: 105px;background-color: #893aa0;"></div>
                 </td>
               </tr>
             </table>
@@ -421,7 +421,7 @@ export default {
 }, 1000);
     // Initialize Swiper after the component mounts
     this.initSwiper();
-    const tabs = document.querySelectorAll('.tab_btn8');
+    const tabs = document.querySelectorAll('.tab_btn9');
   const contentDisplays = document.querySelectorAll('.content'); // Use plural form for clarity
 
   function handleTabClick(event) {
