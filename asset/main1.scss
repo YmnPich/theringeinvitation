@@ -921,13 +921,13 @@ opacity: 1;
 
 .background-image {
   background-image: url('/asset/sample10.jpg'); /* Replace with your image path */
-  background-size: contain;
+  background-size: contain; /* Maintain aspect ratio and fit within the specified width */
   background-position: center;
   background-attachment: fixed; /* Make the background image fixed */
-  width: 390px; /* Ensure the background image always takes up the full width */
+  width: 390px; /* Set the desired width */
   height: auto; /* Maintain aspect ratio */
   background-repeat: no-repeat; /* Prevent image repetition */
-  margin: auto;
+  margin: 0 auto; /* Center the background image horizontally */
 }
 
 // @media (max-width: 768px) {
