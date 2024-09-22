@@ -256,6 +256,8 @@ tr{
 }
 body{
     background-color: #f1f4f8;
+    width: 390px;
+    margin: auto;
 }
 
 // end of sample 1
@@ -1004,3 +1006,29 @@ opacity: 1;
   transform: scale(1.5); /* Adjust the scale factor as needed */
 }
 
+
+.background-container {
+  background-image: url('/path/to/your/image.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .background-container {
+    background-size: contain;
+  }
+}
+
+.background-10{
+  width: 390px;
+
+  background-image: url(/asset/sample10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-y: auto;
+  margin: auto;
+}
