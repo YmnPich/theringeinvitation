@@ -264,13 +264,14 @@ body{
 
 
 // sample 2
-.main-container{
-  width: 390px;
-  margin: auto;
-  background-image: url("/asset/sample2-background.jpg"); /* Replace with your image path */
-  // background-size: cover;
-  background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
-  overflow-y: auto;
+.main-container {
+  width: 100%; /* Adjust to fit the entire screen */
+  margin: 0; /* Remove unnecessary margin */
+  background-image: url("/asset/sample2-background.jpg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;;
 }
 .flower-top{
   width: 390px;
