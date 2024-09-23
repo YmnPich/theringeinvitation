@@ -920,6 +920,7 @@ opacity: 1;
   left: 0;
   z-index: 1;
   background-color: #e7f6e5;
+  margin: auto;
 }
 
 .background-image {
@@ -1024,10 +1025,10 @@ opacity: 1;
 }
 
 .background-10 {
-  width: 390px; /* Adjust width as needed for phone devices */
+  width: 480px; /* Adjust width as needed for phone devices */
   height: 844px; /* Adjust height as needed */
   overflow: auto; /* Enable scrolling if content overflows */
-  background-image: url("/asset/sample10-long.jpg"); /* Replace with your image path */
+  background-image: url("/asset/sample10-longs.png"); /* Replace with your image path */
   background-size: contain; /* Maintain original aspect ratio and fit within container */
   background-repeat: no-repeat; /* Prevent image from repeating */
   background-position: center; /* Center the image within the container   
