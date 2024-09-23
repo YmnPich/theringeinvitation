@@ -1023,13 +1023,32 @@ opacity: 1;
   }
 }
 
-.background-10{
-  width: 390px;
+.background-10 {
+  width: 390px; /* Adjust width as needed for phone devices */
+  height: 844px; /* Adjust height as needed */
+  overflow: auto; /* Enable scrolling if content overflows */
+  background-image: url("/asset/sample10-long.jpg"); /* Replace with your image path */
+  background-size: contain; /* Maintain original aspect ratio and fit within container */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-position: center; /* Center the image within the container   
+ */
+}
 
-  background-image: url(/asset/sample10.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  overflow-y: auto;
-  margin: auto;
+.content-container {
+  padding: 20px; /* Adjust padding for spacing around content */
+}
+
+.background-image-container {
+  position: relative;
+  height: 100%; /* Make background image fill the container */
+  
+}
+
+.background-image-container img {
+  width: 100%; /* Make image responsive */
+  height: 100%;
+  object-fit: cover; /* Ensure image covers the container without stretching */
+  position: absolute; /* Place image behind content */
+  top: 0;
+  left: 0;
 }
