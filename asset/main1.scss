@@ -268,7 +268,7 @@ body{
   width: 100%; /* Adjust to fit the entire screen */
   margin: 0; /* Remove unnecessary margin */
   background-image: url("/asset/sample2-background.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;;
@@ -568,17 +568,28 @@ body{
 //   width: 390px;
 // }
 
-.main-background4 {
-  width: 390px;
-  margin: auto;
-  background-image: url("/asset/sample4-background.jpg"); 
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  // filter: blur(8px)   
-  // saturate(1.2) brightness(0.9);
-  height: 4980px;
+// .main-background4 {
+//   width: 390px;
+//   margin: auto;
+//   background-image: url("/asset/sample4-background.jpg"); 
+//   background-size: contain;
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   // filter: blur(8px)   
+//   // saturate(1.2) brightness(0.9);
+//   height: 4980px;
+// }
+
+.background-4 {
+  width: 420px; /* Adjust width as needed for phone devices */
+  height: 844px; /* Adjust height as needed */
+  overflow: auto; /* Enable scrolling if content overflows */
+  background-image: url("/asset/sample4-background.jpg"); /* Replace with your image path */
+  background-size: contain; /* Maintain original aspect ratio and fit within container */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-position: center; /* Center the image within the container   
+ */
 }
 
 .sub-background {
@@ -891,10 +902,22 @@ opacity: 1;
   background-image: url(/asset/i.jpg);
   width: 390px;
   margin: auto;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  // background-size: contain;
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
+  // background-position: center;
+
+}
+
+.background-9 {
+  width: 420px; /* Adjust width as needed for phone devices */
+  height: 844px; /* Adjust height as needed */
+  overflow: auto; /* Enable scrolling if content overflows */
+  background-image: url("/asset/sample9-back.jpg"); /* Replace with your image path */
+  background-size: contain; /* Maintain original aspect ratio and fit within container */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-position: center; /* Center the image within the container   
+ */
 }
 
 .contain{
@@ -915,12 +938,14 @@ opacity: 1;
 
 .headers10{
   position: sticky;
-  width: 390px;
+  width: 400px;
   top: 0;
   left: 0;
   z-index: 1;
   background-color: #e7f6e5;
   margin: auto;
+  margin-right: 22px;
+  
 }
 
 .background-image {
@@ -1036,9 +1061,15 @@ opacity: 1;
 }
 
 .content-container {
-  padding: 20px; /* Adjust padding for spacing around content */
+  // padding: 20px; /* Adjust padding for spacing around content */
+  padding-left: 20px;
+  padding-right: 20px;
 }
+.content-containers {
+  // padding: 20px; /* Adjust padding for spacing around content */
+  padding-right: 15px;
 
+}
 .background-image-container {
   position: relative;
   height: 100%; /* Make background image fill the container */
@@ -1052,4 +1083,10 @@ opacity: 1;
   position: absolute; /* Place image behind content */
   top: 0;
   left: 0;
+}
+
+.bac{
+  background-image: url(/asset/sample10.jpg);
+  background-size: contain;
+  background-attachment: fixed;
 }
