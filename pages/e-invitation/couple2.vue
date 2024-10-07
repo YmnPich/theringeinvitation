@@ -30,6 +30,8 @@ export default {
         'https://pagedone.io/asset/uploads/1712568734.png',
         'https://pagedone.io/asset/uploads/1712568734.png',
         'https://pagedone.io/asset/uploads/1712568734.png',
+        'https://pagedone.io/asset/uploads/1712568734.png',
+        'https://pagedone.io/asset/uploads/1712568734.png',
         
       ] // Array of image URLs
     }
