@@ -122,7 +122,7 @@
                 <td>កូនស្រីនាម</td>
             </tr>
             <tr class = "name-groombride" style = "color: #0b6e7f;font-family : battambang ; font-weight : 700 ; font-size : 24px;">
-                <td>សាយ​ តារារា</td>
+                <td>សាយ​ តារា</td>
                 <td>លួន​ តារារស្មី</td>
             </tr>
             </table>
