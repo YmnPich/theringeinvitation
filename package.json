@@ -10,17 +10,23 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/image": "^1.8.1",
+    "@nuxtjs/router": "^1.7.0",
     "embla-carousel-autoplay": "^8.2.1",
     "embla-carousel-vue": "^8.2.1",
+    "fullpage.js": "^4.0.29",
     "jquery": "^3.7.1",
+    "lightbox2": "^2.11.5",
     "node-sass": "^9.0.0",
     "nuxt": "^3.13.0",
+    "nuxt-image": "^0.0.4",
     "parallax-js": "^3.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sass-loader": "^16.0.1",
     "swiper": "^11.1.12",
     "vue": "latest",
+    "vue-easy-lightbox": "^1.19.0",
     "vue-loader": "^17.4.2"
   },
   "devDependencies": {
