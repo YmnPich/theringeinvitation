@@ -221,30 +221,48 @@
             <table>
               <tr>
                 <td>
-                  <img style = "width: 144px; height: 216px ; padding-right: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
+                  <img style = "width: 144px;height: 216px;padding-right: 5px;" src="https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080" @click="openModal('https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080')"
+                    class="thumbnail"
+                    alt="thumbnail" />
                 </td>
                 <td>
-                  <img style = "width: 201px; height: 108px ; object-fit:cover;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
-                  <img style = "width: 201px; height: 108px; object-fit:cover; padding-top: 5px"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
+                  <!-- <img style = "width: 201px; height: 108px ; object-fit:cover;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
+                  <img style = "width: 201px; height: 108px; object-fit:cover; padding-top: 5px"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080"> -->
+                  <img style = "width: 201px; height: 108px ; object-fit:cover;" src="https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080" @click="openModal('https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080')"
+                    class="thumbnail"
+                    alt="thumbnail" />
+                    <img style = "width: 201px; height: 108px; object-fit:cover; padding-top: 5px" src="https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080" @click="openModal('https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080')"
+                    class="thumbnail"
+                    alt="thumbnail" />
                 </td>
                 
               </tr>        
             </table>
-            <img style = "width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
+            <!-- <img style = "width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080"> -->
+            <img style = "width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;" src="https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080" @click="openModal('https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080')"
+                    class="thumbnail"
+                    alt="thumbnail" />
             <table style = "margin-top: 5px;">
               <tr>
                 <td>
-                  <img style = "width: 172.5px; height: 243px ; object-fit:cover;padding-right: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
+                  <!-- <img style = "width: 172.5px; height: 243px ; object-fit:cover;padding-right: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080"> -->
+                  <img style = "width: 172.5px; height: 243px ; object-fit:cover;padding-right: 5px;" src="https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080" @click="openModal('https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080')"
+                    class="thumbnail"
+                    alt="thumbnail" />
                 </td>
                 <td>
-                  <img style = "width: 172.5px; height: 243px ; object-fit:cover;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
+                  <!-- <img style = "width: 172.5px; height: 243px ; object-fit:cover;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080"> -->
+                  <img style = "width: 172.5px; height: 243px ; object-fit:cover;padding-right: 5px;" src="https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080" @click="openModal('https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080')"
+                    class="thumbnail"
+                    alt="thumbnail" />
                 </td>
               </tr>
             </table>
-            <img onclick = "FullView(this.src)"style = "width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080">
-            <div id = "FullImageView">
+            <!-- <img onclick = "FullView(this.src)"style = "width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;"src = "https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080"> -->
+            <img style = "width: 348px; height: 220px ; object-fit:cover; margin-top: 5px;" src="https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080" @click="openModal('https://images.unsplash.com/photo-1640654438886-2839af1c6287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjB3ZWRkaW5nJTIwcGhvdG98ZW58MHx8fHwxNzIyMzUzNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080')"
+                    class="thumbnail"
+                    alt="thumbnail" />
 
-            </div>
             <!-- end of photo gallery part -->
 
             <!-- QR Code part -->
@@ -254,9 +272,13 @@
               <img class = "qr-code" src = "/asset/QR-RIEL.png">
             </div>
           </div>
-          <div id = "FullImageView">
+          <div v-if="selectedImage" class="modal" @click.self="closeModal">
+      <span class="close" @click="closeModal">&times;</span>
+      <img class="modal-content" :src="selectedImage" alt="full size" />
+    </div>
+          <!-- <div id = "FullImageView">
             <img id = "FullImage">
-          </div>
+          </div> -->
           <!-- end of QR Code part -->
 
           <!-- powered part -->
@@ -284,47 +306,68 @@
     </div>
   </template>
   <script>
+  import theringCoupleImage from '~/asset/thering-couple.jpg';
+  
   export default {
-  mounted() {
-    const tabs = document.querySelectorAll('.tab_btn');
-    const contentDisplays = document.querySelectorAll('.content'); // Use plural form for clarity
-
-    function handleTabClick(event) {
-      // Remove active class from all tabs
-      tabs.forEach(tab => tab.classList.remove('active'));
-
-      // Add active class to the clicked tab
-      event.target.classList.add('active');   
-
-
-      // Animate line under active tab (assuming line element exists)
-      const line = document.querySelector('.line');
-      if (line) {
-        line.style.width = event.target.offsetWidth + "px";
-        line.style.left = event.target.offsetLeft + "px";
+    data() {
+      return {
+        theringCoupleImage,
+        selectedImage: null, // Stores the selected image URL
+        // images: [
+        //   'https://pagedone.io/asset/uploads/1712568734.png',
+        //   'https://pagedone.io/asset/uploads/1712568734.png',
+        //   'https://pagedone.io/asset/uploads/1712568734.png',
+        //   'https://pagedone.io/asset/uploads/1712568734.png',
+        //   'https://pagedone.io/asset/uploads/1712568734.png',
+        //   'https://pagedone.io/asset/uploads/1712568734.png',
+        // ] // Array of image URLs
+      };
+    },
+    mounted() {
+      const tabs = document.querySelectorAll('.tab_btn');
+      const contentDisplays = document.querySelectorAll('.content'); // Use plural form for clarity
+  
+      function handleTabClick(event) {
+        // Remove active class from all tabs
+        tabs.forEach(tab => tab.classList.remove('active'));
+  
+        // Add active class to the clicked tab
+        event.target.classList.add('active');
+  
+        // Animate line under active tab (assuming line element exists)
+        const line = document.querySelector('.line');
+        if (line) {
+          line.style.width = event.target.offsetWidth + "px";
+          line.style.left = event.target.offsetLeft + "px";
+        }
+  
+        // Hide all content displays
+        contentDisplays.forEach(content => content.classList.remove('active'));
+  
+        // Show the content display corresponding to the clicked tab
+        const clickedTabIndex = Array.from(tabs).indexOf(event.target);
+        if (clickedTabIndex !== -1) {
+          contentDisplays[clickedTabIndex].classList.add('active');
+        } else {
+          console.error('Clicked tab not found in content displays. Check for consistency.');
+        }
       }
-
-      // Hide all content displays
-      contentDisplays.forEach(content => content.classList.remove('active'));
-
-      // Show the content display corresponding to the clicked tab
-      const clickedTabIndex = Array.from(tabs).indexOf(event.target);
-      if (clickedTabIndex !== -1) {
-        contentDisplays[clickedTabIndex].classList.add('active');
-      } else {
-        console.error('Clicked tab not found in content displays. Check for consistency.');
+  
+      // Attach click event listener to all tabs
+      tabs.forEach(tab => tab.addEventListener('click', handleTabClick));
+    },
+    methods: {
+      openModal(image) {
+        this.selectedImage = image; // Set selected image for modal
+      },
+      closeModal() {
+        this.selectedImage = null; // Close the modal by resetting the selected image
+      },
+      FullView(ImgLink) {
+        document.getElementById("FullImage").src = ImgLink;
+        document.getElementById("FullImageView").style.display = "block"; 
       }
-    }
-
-    // Attach click event listener to all tabs
-    tabs.forEach(tab => tab.addEventListener('click', handleTabClick));
-
-    // FullView function (assuming image element and container with ID "FullImageView" exist)
-    function FullView(ImgLink) {
-      document.getElementById("FullImage").src = ImgLink;
-      document.getElementById("FullImageView").style.display = "block";   
-
     }
   }
-};
   </script>
+  
