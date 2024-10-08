@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/image": "0.1.0",
     "@nuxtjs/router": "^1.7.0",
     "embla-carousel-autoplay": "^8.2.1",
     "embla-carousel-vue": "^8.2.1",
