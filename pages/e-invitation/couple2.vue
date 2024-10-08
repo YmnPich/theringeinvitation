@@ -1,11 +1,11 @@
-<template>
+<!-- <template>
   <div>
     <img :src="theringCoupleImage" alt="The Ring Couple" />
   </div>
 </template>
 
 <script>
-import theringCoupleImage from '~/assets/thering-couple.jpg';
+import theringCoupleImage from '~/asset/thering-couple.jpg';
 
 export default {
   data() {
@@ -18,4 +18,8 @@ export default {
 
 <style>
 /* Your styles here */
-</style>
+</style> -->
+
+<template>
+  
+</template>
